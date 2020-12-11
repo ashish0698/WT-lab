@@ -1,0 +1,41 @@
+h2,h1{
+	color: green;
+	background-color: lightblue; 
+}
+ol{
+	color: green;
+}
+ul{
+	color: blue;
+}
+form{
+	font: status-bar;
+	font-size: 100%;
+}
+.laptop img {
+	height: 300px;
+}
+.laptop p{
+	color: red;
+	position: absolute; right:30%; top:25%; 
+	font: status-bar;
+	font-size: 20px;
+}
+.phone img{
+	height: 300px;
+}
+.phone p{
+	color: red;
+	position: absolute; right: 32%; top: 70%;
+	font: status-bar;
+	font-size: 20px;
+}
+.fridge img{
+	height: 300px;
+}
+.fridge p{
+	color: red;
+	position: absolute; right: 37%;top: 120%;
+	font:status-bar;
+	font-size: 20px;
+}
