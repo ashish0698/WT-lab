@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reverse character</title>
+</head>
+<body>
+	<form>
+		Enter name:<input type="text" name="names" id="name"><br><br>
+		<button type="button" onclick="ashish()">Submit</button>
+	</form>
+
+
+	<script type="text/javascript">
+		function ashish(){
+		var a=document.getElementById('name').value;
+		var x=a.length;
+		for(var i=x-1;i>=0;i--){
+			document.write(a[i]);
+		}
+	}
+	</script>
+
+</body>
+</html>

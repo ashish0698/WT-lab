@@ -1,0 +1,26 @@
+<!-- error -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>odd even</title>
+</head>
+<body>
+	<form>
+		Enter number:<input type="number" name="number" id="no"><br><br>
+		<button onclick="oddeven()">Check</button>
+	</form>
+
+
+<script type="text/javascript">
+	function oddeven() {
+		var num;
+		num=document.getElementById("input").value;
+		if (num%2==0) {
+			alert("Even");
+		}else{
+			alert("Odd");
+		}
+	}
+</script>
+</body>
+</html>

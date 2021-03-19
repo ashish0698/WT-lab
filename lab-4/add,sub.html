@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+</head>
+<body>
+	<form>
+		Enter one:<input type="number" name="number" id="num1"><br><br>
+		Enter another:<input type="number3" name="numbers" id="num2"><br><br>
+
+		<button onclick="add()" type="button">ADD</button>
+		<button onclick="sub()" type="button">SUBTRACT</button>
+		<button onclick="mul()" type="button">MULTIPLY</button><br><br>
+		Result:<input type="number" name="result1" id="result">
+
+	<script type="text/javascript">
+		function add(){
+			let a=parseInt(document.getElementById('num1').value);
+			let b=parseInt(document.getElementById('num2').value);
+			let sum = a + b;
+			document.getElementById('result').value=sum;
+		}
+		function sub(){
+			let a=parseInt(document.getElementById('num1').value);
+			let b=parseInt(document.getElementById('num2').value);
+			let sub = a - b;
+			document.getElementById('result').value=sub;
+		}
+		function mul(){
+			let a=parseInt(document.getElementById('num1').value);
+			let b=parseInt(document.getElementById('num2').value);
+			let mul = a * b;
+			document.getElementById('result').value=mul;
+		}
+		
+
+	</script>
+
+</body>
+</html>
